@@ -40,13 +40,13 @@ Usage
 Create a Heroku application using this buildpack:
 
 ```bash
-$ heroku create --buildpack https://github.com/roperzh/heroku-buildpack-hugo.git
+$ heroku create --buildpack https://github.com/testdouble/heroku-buildpack-hugo.git
 ```
 
 or configure your existent application:
 
 ```bash
-$ heroku buildpacks:set BUILDPACK_URL="https://github.com/roperzh/heroku-buildpack-hugo.git"
+$ heroku buildpacks:set BUILDPACK_URL="https://github.com/testdouble/heroku-buildpack-hugo.git"
 ```
 
 Optionally, define a `HUGO_VERSION` Config Var to specify the Hugo version you wish to use:
@@ -77,7 +77,7 @@ https://github.com/spf13/hyde.git
 ```
 
 [Here](http://immense-hollows-6319.herokuapp.com/) is an example application,
-and [here](https://github.com/roperzh/example-heroku-buildpack-hugo) is the code.
+and [here](https://github.com/testdouble/example-heroku-buildpack-hugo) is the code.
 
 Alternative method
 ---
